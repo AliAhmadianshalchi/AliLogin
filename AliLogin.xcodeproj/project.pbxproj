@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4168A1C926AF8E0D00491108 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4168A1C826AF8E0D00491108 /* AppDelegate.swift */; };
+		4168A1CB26AF8E0D00491108 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4168A1CA26AF8E0D00491108 /* SceneDelegate.swift */; };
+		4168A1CD26AF8E0D00491108 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4168A1CC26AF8E0D00491108 /* LoginViewController.swift */; };
+		4168A1D026AF8E0D00491108 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4168A1CE26AF8E0D00491108 /* Main.storyboard */; };
+		4168A1D226AF8E1000491108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4168A1D126AF8E1000491108 /* Assets.xcassets */; };
+		4168A1D526AF8E1000491108 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4168A1D326AF8E1000491108 /* LaunchScreen.storyboard */; };
+		4168A1E226AF8E8F00491108 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4168A1E126AF8E8F00491108 /* WebService.swift */; };
+		4168A1E426AF8EB300491108 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4168A1E326AF8EB300491108 /* User.swift */; };
+		A649D4AF42E0E6EEA9A91FF7 /* Pods_AliLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97106DA22CCA195071884996 /* Pods_AliLogin.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		393E45C5AA5BED84FFA9554D /* Pods-AliLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliLogin.debug.xcconfig"; path = "Target Support Files/Pods-AliLogin/Pods-AliLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		4168A1C526AF8E0D00491108 /* AliLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4168A1C826AF8E0D00491108 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4168A1CA26AF8E0D00491108 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4168A1CC26AF8E0D00491108 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4168A1CF26AF8E0D00491108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4168A1D126AF8E1000491108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4168A1D426AF8E1000491108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4168A1D626AF8E1000491108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4168A1E126AF8E8F00491108 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		4168A1E326AF8EB300491108 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		545AC804F2102038D4145E8D /* Pods-AliLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliLogin.release.xcconfig"; path = "Target Support Files/Pods-AliLogin/Pods-AliLogin.release.xcconfig"; sourceTree = "<group>"; };
+		97106DA22CCA195071884996 /* Pods_AliLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AliLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4168A1C226AF8E0D00491108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A649D4AF42E0E6EEA9A91FF7 /* Pods_AliLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E0B2663EEFD7F6DA6390D9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97106DA22CCA195071884996 /* Pods_AliLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4168A1BC26AF8E0D00491108 = {
+			isa = PBXGroup;
+			children = (
+				4168A1C726AF8E0D00491108 /* AliLogin */,
+				4168A1C626AF8E0D00491108 /* Products */,
+				F752E0624FAD90E49152B6C5 /* Pods */,
+				3E0B2663EEFD7F6DA6390D9A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4168A1C626AF8E0D00491108 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4168A1C526AF8E0D00491108 /* AliLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4168A1C726AF8E0D00491108 /* AliLogin */ = {
+			isa = PBXGroup;
+			children = (
+				4168A1E026AF8E2D00491108 /* General */,
+				4168A1DF26AF8E2600491108 /* Networking */,
+				4168A1DE26AF8E2200491108 /* Controller */,
+				4168A1DD26AF8E1D00491108 /* View */,
+				4168A1DC26AF8E1700491108 /* Model */,
+				4168A1D126AF8E1000491108 /* Assets.xcassets */,
+				4168A1D626AF8E1000491108 /* Info.plist */,
+			);
+			path = AliLogin;
+			sourceTree = "<group>";
+		};
+		4168A1DC26AF8E1700491108 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4168A1E326AF8EB300491108 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4168A1DD26AF8E1D00491108 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4168A1CE26AF8E0D00491108 /* Main.storyboard */,
+				4168A1D326AF8E1000491108 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4168A1DE26AF8E2200491108 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4168A1CC26AF8E0D00491108 /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4168A1DF26AF8E2600491108 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4168A1E126AF8E8F00491108 /* WebService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		4168A1E026AF8E2D00491108 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				4168A1C826AF8E0D00491108 /* AppDelegate.swift */,
+				4168A1CA26AF8E0D00491108 /* SceneDelegate.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		F752E0624FAD90E49152B6C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				393E45C5AA5BED84FFA9554D /* Pods-AliLogin.debug.xcconfig */,
+				545AC804F2102038D4145E8D /* Pods-AliLogin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4168A1C426AF8E0D00491108 /* AliLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4168A1D926AF8E1000491108 /* Build configuration list for PBXNativeTarget "AliLogin" */;
+			buildPhases = (
+				E07BCE50FD3BC6C8AF309029 /* [CP] Check Pods Manifest.lock */,
+				4168A1C126AF8E0D00491108 /* Sources */,
+				4168A1C226AF8E0D00491108 /* Frameworks */,
+				4168A1C326AF8E0D00491108 /* Resources */,
+				E89345C83E54DE09C15C8638 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AliLogin;
+			productName = AliLogin;
+			productReference = 4168A1C526AF8E0D00491108 /* AliLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4168A1BD26AF8E0D00491108 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					4168A1C426AF8E0D00491108 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 4168A1C026AF8E0D00491108 /* Build configuration list for PBXProject "AliLogin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4168A1BC26AF8E0D00491108;
+			productRefGroup = 4168A1C626AF8E0D00491108 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4168A1C426AF8E0D00491108 /* AliLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4168A1C326AF8E0D00491108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4168A1D526AF8E1000491108 /* LaunchScreen.storyboard in Resources */,
+				4168A1D226AF8E1000491108 /* Assets.xcassets in Resources */,
+				4168A1D026AF8E0D00491108 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E07BCE50FD3BC6C8AF309029 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AliLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E89345C83E54DE09C15C8638 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AliLogin/Pods-AliLogin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AliLogin/Pods-AliLogin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AliLogin/Pods-AliLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4168A1C126AF8E0D00491108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4168A1CD26AF8E0D00491108 /* LoginViewController.swift in Sources */,
+				4168A1C926AF8E0D00491108 /* AppDelegate.swift in Sources */,
+				4168A1E226AF8E8F00491108 /* WebService.swift in Sources */,
+				4168A1E426AF8EB300491108 /* User.swift in Sources */,
+				4168A1CB26AF8E0D00491108 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4168A1CE26AF8E0D00491108 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4168A1CF26AF8E0D00491108 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4168A1D326AF8E1000491108 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4168A1D426AF8E1000491108 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4168A1D726AF8E1000491108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4168A1D826AF8E1000491108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4168A1DA26AF8E1000491108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 393E45C5AA5BED84FFA9554D /* Pods-AliLogin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3XJHG6MBP;
+				INFOPLIST_FILE = AliLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AliAhmadian.AliLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4168A1DB26AF8E1000491108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 545AC804F2102038D4145E8D /* Pods-AliLogin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3XJHG6MBP;
+				INFOPLIST_FILE = AliLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AliAhmadian.AliLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4168A1C026AF8E0D00491108 /* Build configuration list for PBXProject "AliLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4168A1D726AF8E1000491108 /* Debug */,
+				4168A1D826AF8E1000491108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4168A1D926AF8E1000491108 /* Build configuration list for PBXNativeTarget "AliLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4168A1DA26AF8E1000491108 /* Debug */,
+				4168A1DB26AF8E1000491108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4168A1BD26AF8E0D00491108 /* Project object */;
+}
