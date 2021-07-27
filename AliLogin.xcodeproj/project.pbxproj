@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		412A968A26B02F0F001568E9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 412A968926B02F0F001568E9 /* GoogleService-Info.plist */; };
+		412A968C26B03488001568E9 /* InsideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412A968B26B03488001568E9 /* InsideViewController.swift */; };
 		4168A1C926AF8E0D00491108 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4168A1C826AF8E0D00491108 /* AppDelegate.swift */; };
 		4168A1CB26AF8E0D00491108 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4168A1CA26AF8E0D00491108 /* SceneDelegate.swift */; };
 		4168A1CD26AF8E0D00491108 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4168A1CC26AF8E0D00491108 /* LoginViewController.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		393E45C5AA5BED84FFA9554D /* Pods-AliLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliLogin.debug.xcconfig"; path = "Target Support Files/Pods-AliLogin/Pods-AliLogin.debug.xcconfig"; sourceTree = "<group>"; };
 		412A968926B02F0F001568E9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		412A968B26B03488001568E9 /* InsideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsideViewController.swift; sourceTree = "<group>"; };
 		4168A1C526AF8E0D00491108 /* AliLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4168A1C826AF8E0D00491108 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4168A1CA26AF8E0D00491108 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				4168A1CC26AF8E0D00491108 /* LoginViewController.swift */,
+				412A968B26B03488001568E9 /* InsideViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			files = (
 				4168A1CD26AF8E0D00491108 /* LoginViewController.swift in Sources */,
 				4168A1C926AF8E0D00491108 /* AppDelegate.swift in Sources */,
+				412A968C26B03488001568E9 /* InsideViewController.swift in Sources */,
 				4168A1E226AF8E8F00491108 /* WebService.swift in Sources */,
 				4168A1E426AF8EB300491108 /* User.swift in Sources */,
 				4168A1CB26AF8E0D00491108 /* SceneDelegate.swift in Sources */,

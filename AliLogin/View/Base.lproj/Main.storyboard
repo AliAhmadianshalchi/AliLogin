@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="29" translatesAutoresizingMaskIntoConstraints="NO" id="YzG-TN-IOP">
-                                <rect key="frame" x="30" y="138" width="354" height="215"/>
+                                <rect key="frame" x="30" y="138" width="354" height="274"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qkF-ei-KeZ">
                                         <rect key="frame" x="10" y="0.0" width="334" height="34"/>
@@ -32,15 +32,30 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYj-X2-Abv">
                                         <rect key="frame" x="30" y="126" width="294" height="30"/>
                                         <state key="normal" title="Login"/>
+                                        <connections>
+                                            <action selector="loginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rVs-AJ-CCr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t6a-wh-xgg">
+                                        <rect key="frame" x="30" y="185" width="294" height="30"/>
+                                        <state key="normal" title="Register"/>
+                                        <connections>
+                                            <action selector="registerButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j4j-SC-FiC"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iaG-tx-ctz">
-                                        <rect key="frame" x="30" y="185" width="294" height="30"/>
+                                        <rect key="frame" x="30" y="244" width="294" height="30"/>
                                         <state key="normal" title="Login with FaceBook"/>
+                                        <connections>
+                                            <action selector="loginWithFaceBookPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oxC-WX-ybL"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="qkF-ei-KeZ" firstAttribute="leading" secondItem="YzG-TN-IOP" secondAttribute="leading" constant="10" id="2Bz-T8-Sxk"/>
                                     <constraint firstAttribute="trailing" secondItem="kV5-ja-ch2" secondAttribute="trailing" constant="10" id="5T2-hq-55H"/>
+                                    <constraint firstAttribute="trailing" secondItem="t6a-wh-xgg" secondAttribute="trailing" constant="30" id="5ma-Dc-y2x"/>
+                                    <constraint firstItem="t6a-wh-xgg" firstAttribute="leading" secondItem="YzG-TN-IOP" secondAttribute="leading" constant="30" id="ArJ-X5-z85"/>
                                     <constraint firstItem="kV5-ja-ch2" firstAttribute="leading" secondItem="YzG-TN-IOP" secondAttribute="leading" constant="10" id="CXz-Tr-4O7"/>
                                     <constraint firstItem="iaG-tx-ctz" firstAttribute="leading" secondItem="YzG-TN-IOP" secondAttribute="leading" constant="30" id="CfA-pq-ZxY"/>
                                     <constraint firstItem="eYj-X2-Abv" firstAttribute="leading" secondItem="YzG-TN-IOP" secondAttribute="leading" constant="30" id="Fn3-1O-O0b"/>
@@ -60,6 +75,11 @@
                     </view>
                     <navigationItem key="navigationItem" title="Login" id="o5r-fV-PgR"/>
                     <connections>
+                        <outlet property="emailTextField" destination="qkF-ei-KeZ" id="Fet-A9-F81"/>
+                        <outlet property="facebookLoginButton" destination="iaG-tx-ctz" id="Q30-XE-sY5"/>
+                        <outlet property="loginButton" destination="eYj-X2-Abv" id="bDE-jX-gJo"/>
+                        <outlet property="passwordTextField" destination="kV5-ja-ch2" id="3RD-jd-OQX"/>
+                        <outlet property="registerButton" destination="t6a-wh-xgg" id="EBK-ba-dtV"/>
                         <segue destination="KFz-gx-qu8" kind="presentation" id="qeg-pd-vih"/>
                     </connections>
                 </viewController>
@@ -70,7 +90,7 @@
         <!--You are LoggedIn-->
         <scene sceneID="CFm-3B-rSh">
             <objects>
-                <viewController id="Q28-O8-wFw" sceneMemberID="viewController">
+                <viewController id="Q28-O8-wFw" customClass="InsideViewController" customModule="AliLogin" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L4k-UK-iaH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
